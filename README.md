@@ -47,15 +47,22 @@
   </tr>
 </table>
 
-## 📊 GitHub 轨迹
+## 🧭 我的技术路线
 
-<div align="center">
+```mermaid
+flowchart LR
+    A["🗺️ 高精地图"] --> B["🛣️ 车道拓扑"]
+    B --> C["🧠 路径规划"]
+    C --> D["🤖 ROS 节点"]
+    D --> E["📊 RViz 可视化"]
+```
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Paranoia-W&show_icons=true&theme=tokyonight&hide_border=true&locale=cn&rank_icon=github)
+### 🔭 当前进度
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Paranoia-W&layout=compact&theme=tokyonight&hide_border=true&locale=cn)
-
-</div>
+- 🔭 当前专注：路径规划与路线优化
+- 🌱 正在深入：OpenDRIVE、车道拓扑和坐标转换
+- 🧪 实践方式：ROS + RViz 可视化验证
+- 🎯 下一目标：构建完整的地图—规划—可视化链路
 
 ---
 
@@ -66,4 +73,3 @@
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:FF6B9D,50:6C63FF,100:00C9FF&height=110&section=footer)
 
 </div>
-
